@@ -4,9 +4,10 @@ using namespace std;
 
 
 int main() {
-	Birthday obj(27,06,1998);
-	obj.printdate();
-	
+	Birthday bd(27,06,1998);
+	bd.printdate();
+	Person p("john",bd);
+	p.printinfo();
 	
 	
 	return 0;
